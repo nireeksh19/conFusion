@@ -1,6 +1,6 @@
 import { Comment } from './comment';
 export class Dish {
-    id: string | undefined;
+    id: number | undefined;
     name: string | undefined;
     image: string | undefined;
     category: string | undefined;
